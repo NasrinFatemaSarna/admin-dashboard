@@ -24,7 +24,7 @@ const ProductPerformance = () => {
         <ResponsiveContainer width="100%" height="100%">
           <BarChart data={productPerformanceData}>
             <CartesianGrid strokeDasharray="3 3" stroke="#374151" />
-            <XAxis dataKey="name" stroke="#9ca3af" />
+            <XAxis dataKey="name" stroke="#9ca3af" />  
             <YAxis stroke="#9ca3af" />
             <Tooltip
               contentStyle={{
